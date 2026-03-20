@@ -1,0 +1,16 @@
+{
+    "name": "jansuchanek/nshortcode",
+    "description": "Universal shortcode parser for Nette — [prefix:args] syntax with registered handlers, Latte filter, DI extension",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "latte/latte": "^3.0",
+        "nette/di": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "NShortcode\\": "src/"
+        }
+    }
+}
